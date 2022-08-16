@@ -63,7 +63,7 @@ public class UserControllers {
 			}
 			else {
 				er.setTimestamp(timestamp);
-	         	er.setCodigo(500);
+	         	er.setCodigo(400);
 	         	er.setDetail("No se Encontro Un usuario con ese token en la DB ");
 	         	
 	         	return er;
@@ -153,7 +153,7 @@ public class UserControllers {
 
 	                 	
 	                 	er.setTimestamp(timestamp);
-	                 	er.setCodigo(500);
+	                 	er.setCodigo(400);
 	                 	er.setDetail("El Usuario Ya existe en la DB.");
 	                 	
 	                 	return er;
@@ -162,7 +162,7 @@ public class UserControllers {
 	             } else {
              	
 	             	er.setTimestamp(timestamp);
-	             	er.setCodigo(500);
+	             	er.setCodigo(400);
 	             	er.setDetail("El email ingresado es inválido.");
 	             	
 	             	return er;
@@ -172,7 +172,7 @@ public class UserControllers {
 	   	 else {
 	   		 
 	       	er.setTimestamp(timestamp);
-	       	er.setCodigo(500);
+	       	er.setCodigo(400);
 	       	er.setDetail("Contraseña Invalida");
 	       	
 	       	return er;
