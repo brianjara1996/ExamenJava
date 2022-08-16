@@ -48,7 +48,13 @@ luego si se encuentra un usuario compatible con ese token devuelve todos los dat
 }
 
 Ejemplos de Prueba en Postman:
+
 ![image](https://user-images.githubusercontent.com/42626179/184780003-44f11b20-077c-4939-b3a2-11220b7b7ec2.png)
+
+![image](https://user-images.githubusercontent.com/42626179/184780134-465d6106-597f-4293-ac23-0007f88c52b7.png)
+
+
+
 
 
 
