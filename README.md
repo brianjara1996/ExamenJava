@@ -55,7 +55,4 @@ Ejemplos de Prueba en Postman:
 
 
 
-
-
-
-
+Para Ejecutar el programa primero debe ejecutar el Scrip(evaluacion_java.sql) de la Base de datos Mysql para poder Levantar el Microservicio
